@@ -18,7 +18,7 @@ void swap(int *a, int *b)
 }
 /**
  * bubble_sort - sorting an array elements
- * @array: the Array 
+ * @array: the Array
  * @size: the Arrays size
  */
 void bubble_sort(int *array, size_t size)
