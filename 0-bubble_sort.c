@@ -4,16 +4,17 @@
  * swap - Function that swaps the values of two variables.
  * @a: first variables pointer.
  * @b: second variables pointer.
+ * @tmp: third temporary variable
  * Return: void
  */
 
 void swap(int *a, int *b)
 {
-	int c;
+	int tmp;
 
-	c = *a;
+	tmp = *a;
 	*a = *b;
-	*b = c;
+	*b = tmp;
 }
 /**
  * bubble_sort - sorting an array elements
